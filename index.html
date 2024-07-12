@@ -34,22 +34,22 @@
             box-sizing: border-box;
         }
 
-        header {
-            background-color: #2b2b2b; /* Dark background color for header */
+        header, .features, footer {
+            background-color: #2b2b2b; /* Dark background color for header, features, and footer */
             color: #ffffff; /* White text color */
-            margin-bottom: 50px;
+            border-radius: 10px; /* Rounded corners for header, features, and footer */
             padding: 20px;
-            border-radius: 10px;
             text-align: center;
+            margin-bottom: 20px; /* Added margin bottom to separate sections */
         }
 
-        h1 {
+        header h1 {
             font-size: 3em;
             margin-bottom: 0.5em;
             letter-spacing: 2px;
         }
 
-        p {
+        header p, .features p, footer p {
             font-size: 1.2em;
             color: #e0e0e0;
         }
@@ -73,18 +73,13 @@
         }
 
         .features {
-            background-color: #2b2b2b; /* Dark background color for features section */
-            color: #ffffff; /* White text color */
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px; /* Increased gap between elements */
-            margin-top: 50px;
-            padding: 20px;
-            border-radius: 10px;
         }
 
         .feature {
-            padding: 20px; /* Removed background and border-radius */
+            padding: 20px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
@@ -100,11 +95,6 @@
         }
 
         footer {
-            background-color: #2b2b2b; /* Dark background color for footer */
-            color: #ffffff; /* White text color */
-            margin-top: 50px;
-            padding: 20px;
-            border-radius: 10px;
             text-align: center;
         }
 
