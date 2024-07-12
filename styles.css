@@ -46,7 +46,7 @@ p {
     padding: 15px 30px;
     font-size: 1em;
     color: #ffffff;
-    background: #6a3093;
+    background: #00bfa5; /* Updated accent color */
     border: none;
     border-radius: 25px;
     text-decoration: none;
@@ -54,7 +54,7 @@ p {
 }
 
 .btn:hover {
-    background: #8e44ad;
+    background: #00a292; /* Darker shade for hover effect */
     transform: scale(1.1);
 }
 
@@ -80,6 +80,7 @@ p {
 .icon {
     font-size: 2.5em;
     margin-bottom: 10px;
+    color: #00bfa5; /* Icon color matching the accent color */
 }
 
 footer {
